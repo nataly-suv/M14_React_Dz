@@ -1,0 +1,37 @@
+.conteinerApp {
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  /* text-decoration: none;
+  color: rgb(255, 255, 255); */
+  all: unset;
+
+}
+
+button {
+  all: unset;
+
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url("./fonts/Manrope.ttf");
+}
+
+.dark {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+.light {
+  color: rgb(33, 33, 33);
+  background-color: whitesmoke;
+}

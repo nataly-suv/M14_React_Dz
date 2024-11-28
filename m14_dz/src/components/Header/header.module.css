@@ -1,0 +1,42 @@
+.header {
+    padding: 45px 100px 0 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    border-bottom: 1px solid rgb(28, 28, 33);
+}
+
+.header__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+}
+
+.nav {
+    padding: 30px 40px;
+    border: 1px solid rgb(28, 28, 33);
+
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contacts__btn {
+    border-radius: 10px;
+    background: rgb(28, 28, 33);
+    padding: 16px 24px;
+    box-shadow: -2px -2px 2px rgb(47, 47, 55);
+
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+}

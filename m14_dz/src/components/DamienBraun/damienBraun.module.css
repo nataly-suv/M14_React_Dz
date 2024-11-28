@@ -1,0 +1,135 @@
+/* верхняя чать с призывом */
+.damienBraun__top {
+    padding: 80px 100px;
+    border-bottom: 1px solid rgb(28, 28, 33);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+.left_sudio {
+    color: rgb(98, 100, 108);
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.left_name {
+    /* color: rgb(229, 229, 231); */
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+.right_letsGo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+}
+
+.right_letsGo_text {
+    /* color: rgb(255, 255, 255); */
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.right_letsGo_btn {
+    border-radius: 100px;
+    box-shadow: inset 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28);
+    background: rgb(74, 44, 237);
+    padding: 18px 50px;
+}
+
+.right_textBottom {
+    /* color: rgb(255, 255, 255); */
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+/* линия с перечислением работ */
+.damienBraun__line {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(28, 28, 33);
+
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 20px;
+}
+
+.damienBraun__items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.damienBraun__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+    min-width: 200px;
+    white-space: nowrap;
+}
+
+.damienBraun__text {
+    /* color: rgb(215, 208, 251); */
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.marquee {
+    animation: scroll 50s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
+}
+
+
+/* баннер */
+
+.damienBraun__imgBox {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.damienBraun__img {
+    width: 100%;
+}
+

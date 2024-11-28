@@ -1,0 +1,49 @@
+/* линия с перечислением работ */
+.line {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(28, 28, 33);
+
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 20px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+    min-width: 200px;
+    white-space: nowrap;
+}
+
+.text {
+    /* color: rgb(215, 208, 251); */
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.marquee {
+    animation: scroll 50s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
+}

@@ -1,0 +1,115 @@
+.footer {
+    padding-top: 200px;
+}
+
+
+.footer__top {
+    padding: 0 100px 125px 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.logo {
+    width: 60%;
+}
+
+.footer__bottom {
+    padding: 100px 100px 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bottom__left {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 40%;
+}
+
+.left__text {
+    color: rgb(121, 124, 134);
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.left_call {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+.left_letsGo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+}
+
+.left_letsGo_text {
+    /* color: rgb(255, 255, 255); */
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.left_letsGo_btn {
+    border-radius: 100px;
+    box-shadow: inset 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28);
+    background: rgb(74, 44, 237);
+    padding: 18px 50px;
+}
+
+.left_textBottom {
+    /* color: rgb(255, 255, 255); */
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.bottom__right {
+    width: 50%;
+}
+
+.bottom__right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.right__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+.right__title {
+    padding-bottom: 10px;
+    color: rgb(121, 124, 134);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.right__text {
+    color: rgb(242, 242, 243);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+
+}

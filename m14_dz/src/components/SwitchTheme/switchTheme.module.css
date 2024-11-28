@@ -1,0 +1,10 @@
+.theme {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+    /* color: rgb(255, 255, 255); */
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 300;
+}

@@ -1,0 +1,25 @@
+{
+  "portfoliaItems": [
+    {
+      "portfolioItemId": 1,
+      "title": "Faces of Resilience",
+      "dataItem": "March 2022",
+      "imageUrl": "portfolio_1.png",
+      "imegeGroup": ["string", "string"]
+    },
+    {
+        "portfolioItemId": 2,
+        "title": "A Wedding Tale",
+        "dataItem": "January 2020",
+        "imageUrl": "portfolio_2.png",
+        "imegeGroup": ["string", "string"]
+      },
+      {
+        "portfolioItemId": 3,
+        "title": "Product Elegance",
+        "dataItem": "January 2020",
+        "imageUrl": "portfolio_3.png",
+        "imegeGroup": ["string", "string"]
+      }
+  ]
+}
